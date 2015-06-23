@@ -1,0 +1,16 @@
+{
+	"event" :
+	{ 
+		"title" : "Event",
+		"description" : "Calendar Event",
+		"fields" : 
+		[
+			{ "id": "event", "label" : "Event", "type" : "text", "required" : "true", "placeholder" : "Quick description of your event"},
+			{ "id": "start_date", "label" : "Start Date", "type" : "date", "required" : "true", "placeholder" : "01/01/2015"},
+			{ "id": "start_time", "label" : "Start Time", "type" : "date", "required" : "true", "placeholder" : "01/01/2015"},
+			{ "id": "end_date", "label" : "End Date", "type" : "date", "required" : "true", "placeholder" : "01/01/2015" },
+			{ "id": "end_time", "label" : "End Time", "type" : "date", "required" : "true", "placeholder" : "01/01/2015" },
+			{ "id": "color", "label" : "Color", "type" : "text", "required" : "false", "placeholder" : "red"}
+		]
+	}
+}
