@@ -1,8 +1,8 @@
 applications:
 - disk_quota: 1024M
-  host: ullcloudcalendar
+  host: ULLCloudCalendar
   name: ULLCloudCalendar
   path: .
-  domain: stage1.mybluemix.net
+  domain: mybluemix.net
   instances: 1
   memory: 512M
