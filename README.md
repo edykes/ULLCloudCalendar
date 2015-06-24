@@ -40,3 +40,5 @@ The Node.js starter application has files as below:
 	the `npm` program to install packages, but also Bluemix when it's
 	staging your application.  For more information, see:
 	<https://docs.npmjs.com/files/package.json>
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/dtoczala/ULLCloudCalendar.git/)

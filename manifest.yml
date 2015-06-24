@@ -1,8 +1,15 @@
 applications:
 - disk_quota: 1024M
+- services:
+  - mongodb_tox01
   host: ULLCloudCalendar
   name: ULLCloudCalendar
+  random-route: true
   path: .
   domain: mybluemix.net
   instances: 1
-  memory: 512M
+  memory: 256M
+declared-services:
+  mongodb_tox01:
+  label: mongodb
+  plan: 100
