@@ -2,8 +2,8 @@ applications:
 - disk_quota: 1024M
 - services:
   - mongodb_tox01
-  host: ULLCloudCalendar
-  name: ULLCloudCalendar
+  host: ULLCloudCalendar-eric
+  name: ULLCloudCalendar-eric
   random-route: true
   path: .
   domain: mybluemix.net
